@@ -11,8 +11,8 @@
 ## Структура
 
 - `content/<en|sk>/lessons/<id>/lesson.json` — уроки; вшиваются в бандл через `import.meta.glob` (`src/content.ts`). `source.md` рядом — расшифровка скриншотов.
-- `src/screens/` — Home (выбор языка), Language (режимы и уроки), Session (карточки), Rules (шпаргалка).
-- `src/session.ts` — сборка колоды: урок / микс / всё вперемешку.
+- `src/screens/` — Home (выбор языка), Language (режимы и уроки), Session (карточки), LessonPage (шпаргалка и блоки по правилам).
+- `src/session.ts` — сборка колоды: блок урока / урок / микс / всё вперемешку.
 - `scripts/validate-lessons.mjs` — валидатор формата, запускается перед сборкой.
 - `.claude/skills/lesson/` — скилл `/lesson`: материалы урока → карточки. Методика и формат карточек — в `references/`.
 - `docs/indeas/` — исходные идеи методики (полная версия с FSRS и озвучкой; в v1 их нет).

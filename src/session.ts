@@ -49,7 +49,7 @@ function lessonDeck(lesson: Lesson): SessionCard[] {
   return [...order, ''].flatMap((k) => shuffle(groups.get(k) ?? []));
 }
 
-export function buildDeck(lang: Lang, source: Source, limit: number): SessionCard[] {
+export function buildDeck(lang: Lang, source: Source, limit: number, rule?: string): SessionCard[] {
   if (source === 'all') {
     return spreadRules(shuffle(getLessons(lang).flatMap(toSessionCards)));
   }
@@ -57,5 +57,8 @@ export function buildDeck(lang: Lang, source: Source, limit: number): SessionCar
     return spreadRules(shuffle(getLessons(lang).flatMap(toSessionCards)).slice(0, limit));
   }
   const lesson = getLesson(lang, source);
-  return lesson ? lessonDeck(lesson) : [];
+  if (!lesson) return [];
+  // Один блок урока: только карточки этого правила, вперемешку.
+  if (rule) return shuffle(toSessionCards(lesson).filter((c) => c.card.rule === rule));
+  return lessonDeck(lesson);
 }

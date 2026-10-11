@@ -11,12 +11,13 @@ interface Props {
   lang: Lang;
   source: Source;
   limit: number;
+  rule?: string;
 }
 
 const SWIPE = 70;
 
-export function Session({ lang, source, limit }: Props) {
-  const [queue, setQueue] = useState<SessionCard[]>(() => buildDeck(lang, source, limit));
+export function Session({ lang, source, limit, rule: ruleId }: Props) {
+  const [queue, setQueue] = useState<SessionCard[]>(() => buildDeck(lang, source, limit, ruleId));
   const [total, setTotal] = useState(queue.length);
   const [done, setDone] = useState(0);
   const [missed, setMissed] = useState<Map<string, SessionCard>>(new Map());
@@ -81,7 +82,7 @@ export function Session({ lang, source, limit }: Props) {
     return () => window.removeEventListener('keydown', onKey);
   }, [current, revealed, isChoice, picked, grade, showRule]);
 
-  const exit = () => go(`/${lang}`);
+  const exit = () => go(source === 'mix' || source === 'all' ? `/${lang}` : `/${lang}/lesson/${source}`);
 
   if (!current) {
     if (total === 0) {
@@ -126,7 +127,7 @@ export function Session({ lang, source, limit }: Props) {
               Прогнать ошибки ещё раз
             </button>
           )}
-          <button className="btn" onClick={() => start(buildDeck(lang, source, limit))}>
+          <button className="btn" onClick={() => start(buildDeck(lang, source, limit, ruleId))}>
             Новый круг
           </button>
           <button className="btn btn-ghost" onClick={exit}>

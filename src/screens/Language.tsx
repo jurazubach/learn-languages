@@ -52,8 +52,8 @@ export function Language({ lang }: { lang: Lang }) {
         {lessons.length === 0 && <p className="empty">Уроков пока нет — скинь скриншоты и вызови /lesson.</p>}
         <ul className="lessons">
           {lessons.map((lesson) => (
-            <li key={lesson.id} className="lesson-row">
-              <button className="lesson-main" onClick={() => go(`/${lang}/play?src=${lesson.id}`)}>
+            <li key={lesson.id}>
+              <button className="lesson-row" onClick={() => go(`/${lang}/lesson/${lesson.id}`)}>
                 <span className="lesson-title">{lesson.title}</span>
                 <span className="muted small">
                   {[lesson.date, rulesWord(lesson.rules.length), cardsWord(playableCount(lesson))]
@@ -61,11 +61,6 @@ export function Language({ lang }: { lang: Lang }) {
                     .join(' · ')}
                 </span>
               </button>
-              {lesson.rules.length > 0 && (
-                <button className="lesson-rules" onClick={() => go(`/${lang}/rules/${lesson.id}`)}>
-                  Шпаргалка
-                </button>
-              )}
             </li>
           ))}
         </ul>
