@@ -77,7 +77,7 @@ content/<lang>/lessons/<id>/
 | `note` | Одна строка «почему» или «проще» |
 | `example` | Пример на изучаемом языке |
 | `translation` | Перевод примера или фразы на язык подсказок |
-| `tags` | `work`, `life`, `me` (о себе), `simple`, `false-friend`, `from-slide` |
+| `tags` | `life` (колода «из жизни»), `simple`, `false-friend`, `from-slide` |
 | `verified` | `false` — карточка скрыта, пока пользователь не подтвердит (сомнительная форма) |
 
 ## Типы

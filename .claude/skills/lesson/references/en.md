@@ -1,4 +1,4 @@
-# EN — английский для разработчика
+# EN — английский
 
 Задача: убрать паузу перед фразой. Понимание уже есть, учим **собирать** фразу из русской мысли.
 
@@ -29,11 +29,6 @@
 - **Предлоги:** *depend on*, *listen to*, *wait for*, *at the meeting*, *on the call*.
 - **Кальки:** *make a photo* → *take a photo*; *I am agree* → *I agree*.
 
-## Рабочий контекст
-
-- На каждое правило 2–3 варианта из работы (тег `work`): дейлик, ревью, баг, деплой, релиз, созвон, тикет, отпуск, блокер.
-- Шаблоны для дейлика полезны всегда: *Yesterday I ___*, *Today I'm going to ___*, *I'm blocked by ___*, *Could you repeat that?*, *I'm not sure I agree*. Если правило урока на них ложится, используй.
-
 ## Стиль ответа
 
 - Разговорный английский с сокращениями: *I've*, *it's*, *didn't*. Полная форма — в `alt`.
@@ -42,9 +37,9 @@
 
 ## Пример набора на одно правило (Present Perfect: already / yet)
 
-- `translate`: «Я уже это сделал» → *I've already done it.* · «Ты уже видел тикет?» → *Have you seen the ticket yet?* · «Я ещё не задеплоил» → *I haven't deployed it yet.* (`work`)
+- `translate`: «Я уже это сделал» → *I've already done it.* · «Ты уже видел письмо?» → *Have you seen the email yet?* · «Я ещё не закончил» → *I haven't finished yet.*
 - `choice`: *I ___ it yesterday.* → `["did", "have done"]` — маркер *yesterday* → Past Simple.
-- `transform`: *I've finished the task.* «→ отрицание с yet» → *I haven't finished the task yet.*
+- `transform`: *I've finished the book.* «→ отрицание с yet» → *I haven't finished the task yet.*
 - `spot`: *I have seen him yesterday.* → *I saw him yesterday.*
 
 ## Колода «Из жизни»
