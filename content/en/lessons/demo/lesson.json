@@ -1,0 +1,87 @@
+{
+  "id": "demo",
+  "lang": "en",
+  "number": 0,
+  "title": "Демо · Question tags",
+  "source": "Пример формата. Удали, когда появятся настоящие уроки.",
+  "rules": [
+    {
+      "id": "tags-basic",
+      "title": "Тег — это «да?» в конце",
+      "summary": [
+        "Плюс в фразе → минус в теге: You're tired, aren't you?",
+        "Минус в фразе → плюс в теге: You aren't tired, are you?",
+        "В теге всегда местоимение: Anna → she, the build → it"
+      ],
+      "examples": [
+        { "target": "It's late, isn't it?", "native": "Поздно, да?" },
+        { "target": "It isn't late, is it?", "native": "Ещё не поздно, да?" }
+      ]
+    },
+    {
+      "id": "tags-be",
+      "title": "Теги с be",
+      "summary": ["Есть am / is / are / was / were → он же в теге", "is → isn't · are → aren't · was → wasn't"],
+      "examples": [
+        { "target": "The meeting is at ten, isn't it?", "native": "Митинг в десять, да?" },
+        { "target": "They were there, weren't they?", "native": "Они же там были, да?" }
+      ]
+    },
+    {
+      "id": "tags-do",
+      "title": "Теги с do / does / did",
+      "summary": [
+        "Нет вспомогательного глагола → берём do / does / did",
+        "I, you, we, they → don't · he, she, it → doesn't · прошлое → didn't"
+      ],
+      "examples": [
+        { "target": "You like coffee, don't you?", "native": "Ты любишь кофе, да?" },
+        { "target": "It failed, didn't it?", "native": "Оно упало, да?" }
+      ]
+    },
+    {
+      "id": "tags-have",
+      "title": "Теги с have / has",
+      "summary": ["Present Perfect: have / has → он же в теге", "You've done it → haven't you? · She's seen it → hasn't she?"],
+      "examples": [{ "target": "You've already merged it, haven't you?", "native": "Ты ведь уже смёржил, да?" }]
+    },
+    {
+      "id": "tags-special",
+      "title": "Особые формы",
+      "summary": ["I am → aren't I", "Let's → shall we"],
+      "examples": [
+        { "target": "I'm late, aren't I?", "native": "Я опоздал, да?" },
+        { "target": "Let's start, shall we?", "native": "Давайте начнём?" }
+      ]
+    }
+  ],
+  "cards": [
+    { "id": "t01", "type": "translate", "rule": "tags-be", "prompt": "Ты ведь устал, да?", "answer": "You're tired, aren't you?", "alt": ["You are tired, aren't you?"] },
+    { "id": "t02", "type": "translate", "rule": "tags-be", "prompt": "Это же не баг, да?", "answer": "It isn't a bug, is it?", "alt": ["It's not a bug, is it?"] },
+    { "id": "t03", "type": "translate", "rule": "tags-be", "prompt": "Митинг в десять, да?", "answer": "The meeting is at ten, isn't it?", "alt": ["The meeting's at ten, isn't it?"], "tags": ["work"] },
+    { "id": "t04", "type": "translate", "rule": "tags-do", "prompt": "Ты ведь любишь кофе, да?", "answer": "You like coffee, don't you?" },
+    { "id": "t05", "type": "translate", "rule": "tags-do", "prompt": "Билд же не упал, да?", "answer": "The build didn't fail, did it?", "tags": ["work"] },
+    { "id": "t06", "type": "translate", "rule": "tags-do", "prompt": "Она работает удалённо, да?", "answer": "She works remotely, doesn't she?" },
+    { "id": "t07", "type": "translate", "rule": "tags-have", "prompt": "Ты ведь уже смёржил, да?", "answer": "You've already merged it, haven't you?", "alt": ["You have already merged it, haven't you?"], "tags": ["work"] },
+    { "id": "t08", "type": "translate", "rule": "tags-have", "prompt": "Он ещё не задеплоил, да?", "answer": "He hasn't deployed it yet, has he?", "tags": ["work"] },
+    { "id": "t09", "type": "translate", "rule": "tags-special", "prompt": "Давай сегодня пропустим демо, ладно?", "answer": "Let's skip the demo today, shall we?", "tags": ["work"] },
+    { "id": "t10", "type": "translate", "rule": "tags-special", "prompt": "Я опоздал, да?", "answer": "I'm late, aren't I?", "note": "По-русски «опоздал», а по-английски просто I'm late." },
+
+    { "id": "r01", "type": "transform", "rule": "tags-be", "prompt": "It's cold today.", "task": "→ добавь тег", "answer": "It's cold today, isn't it?" },
+    { "id": "r02", "type": "transform", "rule": "tags-do", "prompt": "You fixed the bug.", "task": "→ добавь тег", "answer": "You fixed the bug, didn't you?" },
+    { "id": "r03", "type": "transform", "rule": "tags-do", "prompt": "They don't use Jira.", "task": "→ добавь тег", "answer": "They don't use Jira, do they?" },
+    { "id": "r04", "type": "transform", "rule": "tags-have", "prompt": "She's seen the ticket.", "task": "→ добавь тег", "answer": "She's seen the ticket, hasn't she?", "note": "She's = she has, поэтому тег hasn't." },
+
+    { "id": "c01", "type": "choice", "rule": "tags-be", "prompt": "The tests are green, ___?", "options": ["aren't they", "don't they"], "answer": "aren't they", "translation": "Тесты зелёные, да?", "note": "В фразе есть are → тег с are." },
+    { "id": "c02", "type": "choice", "rule": "tags-do", "prompt": "He works with us, ___?", "options": ["doesn't he", "isn't he"], "answer": "doesn't he", "translation": "Он же работает с нами, да?", "note": "Вспомогательного глагола нет → does." },
+    { "id": "c03", "type": "choice", "rule": "tags-special", "prompt": "I'm right, ___?", "options": ["aren't I", "am not I"], "answer": "aren't I", "translation": "Я прав, да?", "note": "Особая форма: I am → aren't I." },
+    { "id": "c04", "type": "choice", "rule": "tags-basic", "prompt": "You aren't busy, ___?", "options": ["are you", "aren't you"], "answer": "are you", "translation": "Ты ведь не занят?", "note": "Минус в фразе → плюс в теге." },
+
+    { "id": "s01", "type": "spot", "rule": "tags-do", "prompt": "He don't like it, does he?", "answer": "He doesn't like it, does he?", "note": "He → doesn't." },
+    { "id": "s02", "type": "spot", "rule": "tags-basic", "prompt": "Anna is here, isn't Anna?", "answer": "Anna is here, isn't she?", "note": "В теге всегда местоимение." },
+
+    { "id": "w01", "type": "chunk", "prompt": "действовать, принять меры", "answer": "take action", "example": "We need to take action now.", "translation": "Нам нужно действовать прямо сейчас." },
+    { "id": "w02", "type": "chunk", "prompt": "изменить ситуацию, повлиять", "answer": "make a difference", "example": "Small changes make a difference.", "translation": "Мелкие изменения тоже влияют." },
+    { "id": "w03", "type": "chunk", "prompt": "собирать деньги (на что-то)", "answer": "raise money", "example": "They raise money for animals.", "translation": "Они собирают деньги для животных." }
+  ]
+}
