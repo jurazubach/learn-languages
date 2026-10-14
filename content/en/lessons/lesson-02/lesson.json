@@ -7,8 +7,59 @@
   "source": "Домашка Unit 1: Personal details, Present simple / continuous, worksheet с мнениями",
   "rules": [
     {
-      "id": "study-work",
-      "title": "Учёба и работа: повтор",
+      "id": "review-words",
+      "title": "Слова: учёба и работа (повтор)",
+      "summary": [
+        "получить высшее образование — do a degree (не make)",
+        "получить квалификацию — get a qualification",
+        "сдавать экзамены — take exams · сдать — pass my exams",
+        "учиться на юриста — train as a lawyer (не like, не for)",
+        "курс по … — a course in … · неполный день — part time (не half)"
+      ]
+    },
+    {
+      "id": "day-words",
+      "title": "Слова: обычный день и семья",
+      "summary": [
+        "просыпаться — wake up · вставать — get up (не stand up)",
+        "ходить в спортзал — go to the gym · каждый вечер — every evening",
+        "как часто? — how often? · брать выходные — take the weekends off",
+        "большая семья — a big family · единственный ребёнок — an only child"
+      ]
+    },
+    {
+      "id": "now-words",
+      "title": "Слова: сейчас и в этом году",
+      "summary": [
+        "сейчас — at the moment / right now / now · в этом году — this year",
+        "Иду! — I'm coming! (не going) · Мы уходим! — We're leaving!",
+        "Как продвигается? — How's it going?",
+        "работать над проектом — work on a project · поссориться — have an argument"
+      ]
+    },
+    {
+      "id": "forms-words",
+      "title": "Формы: обычно или сейчас",
+      "summary": [
+        "Обычно: I work · she works · Do you work? · He doesn't work",
+        "Сейчас: I'm working · she's working · Are you working? · He isn't working",
+        "What do you do? — кем работаешь · What are you doing? — что делаешь",
+        "Без -ing: I want · I think · she's got"
+      ]
+    },
+    {
+      "id": "opinion-words",
+      "title": "Слова: мнения и мечты",
+      "summary": [
+        "I totally agree · I agree · It depends · I don't agree · I totally disagree",
+        "I'd like to … one day — я бы хотел когда-нибудь",
+        "It would be nice to … — было бы здорово",
+        "when I have time — когда будет время (без will)"
+      ]
+    },
+    {
+      "id": "review-phrases",
+      "title": "Фразы: учёба и работа",
       "summary": [
         "do a degree · get a qualification — не make, не pass",
         "take exams — сдавать · pass exams — сдать",
@@ -17,23 +68,14 @@
         "work part time — не part of time, не half time"
       ],
       "examples": [
-        {
-          "target": "I'd like to do a degree one day.",
-          "native": "Я бы хотел когда-нибудь получить высшее образование."
-        },
-        {
-          "target": "Getting qualifications is important if you want a good job.",
-          "native": "Получить квалификацию важно, если хочешь хорошую работу."
-        },
-        {
-          "target": "My brother is training as a lawyer.",
-          "native": "Мой брат учится на юриста."
-        }
+        { "target": "I'd like to do a degree one day.", "native": "Я бы хотел когда-нибудь получить высшее образование." },
+        { "target": "Getting qualifications is important if you want a good job.", "native": "Получить квалификацию важно, если хочешь хорошую работу." },
+        { "target": "My brother is training as a lawyer.", "native": "Мой брат учится на юриста." }
       ]
     },
     {
-      "id": "simple-cont",
-      "title": "Обычно или сейчас",
+      "id": "simple-cont-phrases",
+      "title": "Фразы: обычно или сейчас",
       "summary": [
         "Обычно, всегда, каждый день, работа вообще → I work · She goes",
         "Сейчас, в этом году, в этом месяце → I'm reading · He's taking",
@@ -41,23 +83,14 @@
         "What do you do? — кем работаешь · What are you doing? — что делаешь сейчас"
       ],
       "examples": [
-        {
-          "target": "We usually wake up at five in the morning.",
-          "native": "Обычно мы встаём в пять утра."
-        },
-        {
-          "target": "I'm reading a really good novel at the moment.",
-          "native": "Сейчас я читаю очень хороший роман."
-        },
-        {
-          "target": "James is taking an art course this year.",
-          "native": "В этом году Джеймс проходит курс по искусству."
-        }
+        { "target": "We usually wake up at five in the morning.", "native": "Обычно мы встаём в пять утра." },
+        { "target": "I'm reading a really good novel at the moment.", "native": "Сейчас я читаю очень хороший роман." },
+        { "target": "James is taking an art course this year.", "native": "В этом году Джеймс проходит курс по искусству." }
       ]
     },
     {
-      "id": "be-ing",
-      "title": "am / is / are + -ing",
+      "id": "be-ing-phrases",
+      "title": "Фразы: am / is / are + -ing",
       "summary": [
         "Сейчас = am / is / are + -ing: I'm working · She's studying",
         "Без am / is / are нельзя: не She studying",
@@ -65,38 +98,26 @@
         "Отрицание: He isn't speaking · I'm not working"
       ],
       "examples": [
-        {
-          "target": "Why are you studying English?",
-          "native": "Почему ты учишь английский?"
-        },
-        {
-          "target": "He isn't speaking to her at the moment.",
-          "native": "Сейчас он с ней не разговаривает."
-        }
+        { "target": "Why are you studying English?", "native": "Почему ты учишь английский?" },
+        { "target": "He isn't speaking to her at the moment.", "native": "Сейчас он с ней не разговаривает." }
       ]
     },
     {
-      "id": "state",
-      "title": "Глаголы без -ing",
+      "id": "state-phrases",
+      "title": "Фразы: глаголы без -ing",
       "summary": [
         "be, have got, want, think (= считаю), like — без -ing даже «сейчас»",
         "I want to… — не I'm wanting · I think it's awful — не I'm thinking",
         "He / she → has got · finds · thinks"
       ],
       "examples": [
-        {
-          "target": "My father has got a really big family.",
-          "native": "У моего отца очень большая семья."
-        },
-        {
-          "target": "I read it last year. I think it's awful!",
-          "native": "Я читал её в прошлом году. По-моему, она ужасная!"
-        }
+        { "target": "My father has got a really big family.", "native": "У моего отца очень большая семья." },
+        { "target": "I read it last year. I think it's awful!", "native": "Я читал её в прошлом году. По-моему, она ужасная!" }
       ]
     },
     {
-      "id": "opinions",
-      "title": "Мнения и мечты",
+      "id": "opinion-phrases",
+      "title": "Фразы: мнения и мечты",
       "summary": [
         "I totally agree · I agree · It depends · I disagree · I totally disagree",
         "agree — глагол: I agree / I don't agree, не I'm agree",
@@ -104,1164 +125,172 @@
         "When I have time… — после when без will"
       ],
       "examples": [
-        {
-          "target": "It would be nice to run my own company one day.",
-          "native": "Было бы здорово когда-нибудь иметь свою компанию."
-        },
-        {
-          "target": "When I have time, I'd like to do a course in ancient history.",
-          "native": "Когда будет время, я бы хотел пройти курс по древней истории."
-        }
+        { "target": "It would be nice to run my own company one day.", "native": "Было бы здорово когда-нибудь иметь свою компанию." },
+        { "target": "When I have time, I'd like to do a course in ancient history.", "native": "Когда будет время, я бы хотел пройти курс по древней истории." }
       ]
     }
   ],
   "cards": [
-    {
-      "id": "c01",
-      "type": "choice",
-      "rule": "study-work",
-      "prompt": "I'd like to ___ a degree one day.",
-      "options": [
-        "do",
-        "make"
-      ],
-      "answer": "do",
-      "translation": "Я бы хотел когда-нибудь получить высшее образование.",
-      "note": "degree → do, не make.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "c02",
-      "type": "choice",
-      "rule": "study-work",
-      "prompt": "I don't enjoy ___ exams.",
-      "options": [
-        "taking",
-        "passing"
-      ],
-      "answer": "taking",
-      "translation": "Я не люблю сдавать экзамены.",
-      "note": "Сдавать (процесс) = take. Pass = сдать успешно.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "c03",
-      "type": "choice",
-      "rule": "study-work",
-      "prompt": "___ qualifications is important if you want a good job.",
-      "options": [
-        "Getting",
-        "Passing"
-      ],
-      "answer": "Getting",
-      "translation": "Получить квалификацию важно, если хочешь хорошую работу.",
-      "note": "Квалификацию получают: get. Pass — только про экзамен.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "c04",
-      "type": "choice",
-      "rule": "study-work",
-      "prompt": "I'm studying, but I also work ___ time.",
-      "options": [
-        "part",
-        "half"
-      ],
-      "answer": "part",
-      "translation": "Я учусь, но ещё и подрабатываю.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "c05",
-      "type": "choice",
-      "rule": "study-work",
-      "prompt": "My brother is training ___ a lawyer.",
-      "options": [
-        "as",
-        "like"
-      ],
-      "answer": "as",
-      "translation": "Мой брат учится на юриста.",
-      "note": "Учиться на кого-то = train as. Like = «похоже на».",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "c06",
-      "type": "choice",
-      "rule": "study-work",
-      "prompt": "If you are ___ as a tour guide, it's important to speak several languages.",
-      "options": [
-        "training",
-        "studying"
-      ],
-      "answer": "training",
-      "translation": "Если учишься на гида, важно говорить на нескольких языках.",
-      "note": "Учиться на профессию = train as.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "s01",
-      "type": "spot",
-      "rule": "study-work",
-      "prompt": "My sister is doing a course economics.",
-      "answer": "My sister is doing a course in economics.",
-      "diff": [
-        "in"
-      ],
-      "note": "Курс по чему-то = a course in.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "s02",
-      "type": "spot",
-      "rule": "study-work",
-      "prompt": "I have a degree English and French.",
-      "answer": "I have a degree in English and French.",
-      "diff": [
-        "in"
-      ],
-      "note": "Диплом по чему-то = a degree in.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "s03",
-      "type": "spot",
-      "rule": "study-work",
-      "prompt": "I'm training for tour guide with a local company.",
-      "answer": "I'm training as a tour guide with a local company.",
-      "diff": [
-        "as a"
-      ],
-      "note": "Учиться на гида = train as a tour guide.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "s04",
-      "type": "spot",
-      "rule": "study-work",
-      "prompt": "I work part of time in my local supermarket.",
-      "answer": "I work part time in my local supermarket.",
-      "alt": [
-        "I work part-time in my local supermarket."
-      ],
-      "diff": [
-        "part time"
-      ],
-      "note": "Неполный день = part time, без of."
-    },
-    {
-      "id": "t01",
-      "type": "translate",
-      "rule": "study-work",
-      "prompt": "Сестра сейчас получает высшее образование.",
-      "answer": "My sister is studying for a degree right now.",
-      "alt": [
-        "My sister's studying for a degree right now.",
-        "My sister is doing a degree right now."
-      ],
-      "note": "Учиться ради диплома = study for a degree.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "t02",
-      "type": "translate",
-      "rule": "study-work",
-      "prompt": "Я хочу учиться на квалификацию по бизнесу.",
-      "answer": "I want to study for a qualification in business.",
-      "alt": [
-        "I want to do a qualification in business."
-      ],
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "t03",
-      "type": "translate",
-      "rule": "study-work",
-      "prompt": "Надеюсь, в этом году я сдам экзамены.",
-      "answer": "I hope I pass my exams this year.",
-      "alt": [
-        "I hope that I pass my exams this year."
-      ],
-      "note": "Сдать успешно = pass. После hope — настоящее время.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "t04",
-      "type": "translate",
-      "rule": "study-work",
-      "prompt": "В мае я сдаю выпускные экзамены.",
-      "answer": "I'm taking my final exams in May.",
-      "alt": [
-        "I am taking my final exams in May."
-      ],
-      "note": "Сдаю (план с датой) = I'm taking.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "t05",
-      "type": "translate",
-      "rule": "study-work",
-      "prompt": "У моей мамы своя компания. Она всегда очень занята!",
-      "answer": "My mother runs her own company. She's always very busy!",
-      "alt": [
-        "My mum runs her own company. She's always very busy!",
-        "My mother has her own company. She's always very busy!"
-      ],
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "t06",
-      "type": "translate",
-      "rule": "study-work",
-      "prompt": "Ты всё ещё работаешь юристом?",
-      "answer": "Are you still working as a lawyer?",
-      "alt": [
-        "Do you still work as a lawyer?"
-      ],
-      "note": "Работать кем = work as.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "t07",
-      "type": "translate",
-      "rule": "study-work",
-      "prompt": "Мой брат учится на юриста.",
-      "answer": "My brother is training as a lawyer.",
-      "alt": [
-        "My brother's training as a lawyer."
-      ],
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "f01",
-      "type": "form",
-      "rule": "study-work",
-      "prompt": "I'm studying ___ my degree in business at the moment.",
-      "lemma": "предлог: учусь ради диплома",
-      "answer": "for",
-      "full": "I'm studying for my degree in business at the moment.",
-      "vzor": "study for a degree / a qualification",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "f02",
-      "type": "form",
-      "rule": "study-work",
-      "prompt": "I really hope I ___ my exams at the end of the year!",
-      "lemma": "сдать (успешно)",
-      "answer": "pass",
-      "full": "I really hope I pass my exams at the end of the year!",
-      "vzor": "take — сдавать · pass — сдать",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "f03",
-      "type": "form",
-      "rule": "study-work",
-      "prompt": "I'm working part ___ at a local restaurant.",
-      "lemma": "неполный день",
-      "answer": "time",
-      "full": "I'm working part time at a local restaurant.",
-      "vzor": "work part time / full time",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "f04",
-      "type": "form",
-      "rule": "study-work",
-      "prompt": "Maybe I'll do a course ___ Spanish later this year.",
-      "lemma": "предлог: курс по…",
-      "answer": "in",
-      "full": "Maybe I'll do a course in Spanish later this year.",
-      "vzor": "a course in · a degree in · a qualification in",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "f05",
-      "type": "form",
-      "rule": "study-work",
-      "prompt": "I know you'd like to ___ your own company one day.",
-      "lemma": "руководить, вести",
-      "answer": "run",
-      "full": "I know you'd like to run your own company one day.",
-      "vzor": "run – ran – run",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "w01",
-      "type": "chunk",
-      "rule": "study-work",
-      "prompt": "получить квалификацию",
-      "answer": "get a qualification",
-      "alt": [
-        "get qualifications"
-      ],
-      "example": "Getting qualifications is important if you want a good job.",
-      "translation": "Получить квалификацию важно, если хочешь хорошую работу."
-    },
-    {
-      "id": "t08",
-      "type": "translate",
-      "rule": "simple-cont",
-      "prompt": "Кем ты работаешь?",
-      "answer": "What do you do?",
-      "note": "Не What are you doing? — это «что ты сейчас делаешь».",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "t09",
-      "type": "translate",
-      "rule": "simple-cont",
-      "prompt": "Я учитель. Работаю полный день в местной школе.",
-      "answer": "I'm a teacher. I work full-time in a local school.",
-      "alt": [
-        "I'm a teacher. I work full time in a local school."
-      ],
-      "note": "Работа вообще → Simple: I work.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "t10",
-      "type": "translate",
-      "rule": "simple-cont",
-      "prompt": "Обычно мы встаём в пять утра.",
-      "answer": "We usually wake up at five in the morning.",
-      "alt": [
-        "We usually get up at five in the morning."
-      ],
-      "note": "usually → Simple.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "t11",
-      "type": "translate",
-      "rule": "simple-cont",
-      "prompt": "Я не встаю в пять!",
-      "answer": "I don't get up at five!",
-      "alt": [
-        "I don't wake up at five!"
-      ],
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "t12",
-      "type": "translate",
-      "rule": "simple-cont",
-      "prompt": "Как часто Джейн ходит в спортзал?",
-      "answer": "How often does Jane go to the gym?",
-      "note": "How often → Simple: does … go.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "t13",
-      "type": "translate",
-      "rule": "simple-cont",
-      "prompt": "Сейчас я читаю очень хороший роман.",
-      "answer": "I'm reading a really good novel at the moment.",
-      "alt": [
-        "At the moment I'm reading a really good novel."
-      ],
-      "note": "at the moment → Continuous.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "t14",
-      "type": "translate",
-      "rule": "simple-cont",
-      "prompt": "Как продвигается новый курс?",
-      "answer": "How's the new course going?",
-      "alt": [
-        "How is the new course going?"
-      ],
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "t15",
-      "type": "translate",
-      "rule": "simple-cont",
-      "prompt": "Я учусь на медсестру.",
-      "answer": "I'm training to be a nurse.",
-      "alt": [
-        "I'm training as a nurse."
-      ],
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "t16",
-      "type": "translate",
-      "rule": "simple-cont",
-      "prompt": "Подожди! Иду!",
-      "answer": "Wait! I'm coming!",
-      "note": "«Иду» прямо сейчас = I'm coming, не I go.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "t17",
-      "type": "translate",
-      "rule": "simple-cont",
-      "prompt": "Скорее! Мы уходим!",
-      "answer": "Hurry up! We're leaving!",
-      "alt": [
-        "Hurry up! We are leaving!"
-      ],
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "t18",
-      "type": "translate",
-      "rule": "simple-cont",
-      "prompt": "Она обычно ходит в спортзал каждый вечер.",
-      "answer": "She usually goes to the gym every evening.",
-      "note": "every evening → Simple, she → goes."
-    },
-    {
-      "id": "t19",
-      "type": "translate",
-      "rule": "simple-cont",
-      "prompt": "В этом году я прохожу курс по искусству.",
-      "answer": "I'm taking an art course this year.",
-      "alt": [
-        "I'm doing an art course this year.",
-        "I'm taking a course in art this year."
-      ],
-      "note": "this year → Continuous."
-    },
-    {
-      "id": "c07",
-      "type": "choice",
-      "rule": "simple-cont",
-      "prompt": "What ___ you do? — I'm a teacher.",
-      "options": [
-        "do",
-        "are"
-      ],
-      "answer": "do",
-      "translation": "Кем ты работаешь? — Я учитель.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "c08",
-      "type": "choice",
-      "rule": "simple-cont",
-      "prompt": "We usually ___ up at five in the morning.",
-      "options": [
-        "wake",
-        "are waking"
-      ],
-      "answer": "wake",
-      "translation": "Обычно мы встаём в пять утра.",
-      "note": "usually → Simple.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "c09",
-      "type": "choice",
-      "rule": "simple-cont",
-      "prompt": "Hm, she usually ___ every evening.",
-      "options": [
-        "goes",
-        "is going"
-      ],
-      "answer": "goes",
-      "translation": "Хм, обычно она ходит каждый вечер.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "c10",
-      "type": "choice",
-      "rule": "simple-cont",
-      "prompt": "Hurry up, Julie! We ___ now!",
-      "options": [
-        "'re leaving",
-        "leave"
-      ],
-      "answer": "'re leaving",
-      "translation": "Скорее, Джули! Мы уходим!",
-      "note": "now → Continuous.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "f06",
-      "type": "form",
-      "rule": "simple-cont",
-      "prompt": "James ___ an art course this year.",
-      "lemma": "take",
-      "answer": "is taking",
-      "full": "James is taking an art course this year.",
-      "alt": [
-        "'s taking"
-      ],
-      "vzor": "this year → is + -ing",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "r01",
-      "type": "transform",
-      "rule": "simple-cont",
-      "prompt": "She takes the weekends off.",
-      "task": "→ отрицание",
-      "answer": "She doesn't take the weekends off.",
-      "note": "takes → doesn't take."
-    },
-    {
-      "id": "r02",
-      "type": "transform",
-      "rule": "simple-cont",
-      "prompt": "James is taking an art course.",
-      "task": "→ вопрос",
-      "answer": "Is James taking an art course?"
-    },
-    {
-      "id": "r03",
-      "type": "transform",
-      "rule": "simple-cont",
-      "prompt": "I read a lot.",
-      "task": "→ сейчас (at the moment)",
-      "answer": "I'm reading a lot at the moment.",
-      "alt": [
-        "At the moment I'm reading a lot."
-      ]
-    },
-    {
-      "id": "f07",
-      "type": "form",
-      "rule": "be-ing",
-      "prompt": "I love my life here. ___ in the centre.",
-      "lemma": "I + live (сейчас)",
-      "answer": "I'm living",
-      "full": "I love my life here. I'm living in the centre.",
-      "alt": [
-        "I am living"
-      ],
-      "vzor": "I → am + -ing",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "f08",
-      "type": "form",
-      "rule": "be-ing",
-      "prompt": "Why ___ English?",
-      "lemma": "you + study",
-      "answer": "are you studying",
-      "full": "Why are you studying English?",
-      "vzor": "вопрос: are + you + -ing",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "f09",
-      "type": "form",
-      "rule": "be-ing",
-      "prompt": "___ a course in creative writing.",
-      "lemma": "they + take",
-      "answer": "They're taking",
-      "full": "They're taking a course in creative writing.",
-      "alt": [
-        "They are taking"
-      ],
-      "vzor": "they → are + -ing",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "f10",
-      "type": "form",
-      "rule": "be-ing",
-      "prompt": "What ___ at?",
-      "lemma": "they + look",
-      "answer": "are they looking",
-      "full": "What are they looking at?",
-      "vzor": "вопрос: are + they + -ing",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "f11",
-      "type": "form",
-      "rule": "be-ing",
-      "prompt": "Don't use your phone! ___!",
-      "lemma": "you + drive",
-      "answer": "You're driving",
-      "full": "Don't use your phone! You're driving!",
-      "alt": [
-        "You are driving"
-      ],
-      "vzor": "you → are + -ing",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "f12",
-      "type": "form",
-      "rule": "be-ing",
-      "prompt": "We're really busy this month as ___ on an important project.",
-      "lemma": "we + work",
-      "answer": "we're working",
-      "full": "We're really busy this month as we're working on an important project.",
-      "alt": [
-        "we are working"
-      ],
-      "vzor": "we → are + -ing",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "f13",
-      "type": "form",
-      "rule": "be-ing",
-      "prompt": "___ to her at the moment. They had an argument.",
-      "lemma": "he + not speak",
-      "answer": "He isn't speaking",
-      "full": "He isn't speaking to her at the moment. They had an argument.",
-      "alt": [
-        "He's not speaking",
-        "He is not speaking"
-      ],
-      "vzor": "he → is not + -ing",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "c11",
-      "type": "choice",
-      "rule": "be-ing",
-      "prompt": "Why ___ you studying English?",
-      "options": [
-        "are",
-        "do"
-      ],
-      "answer": "are",
-      "translation": "Почему ты учишь английский?",
-      "note": "-ing → are, не do."
-    },
-    {
-      "id": "c12",
-      "type": "choice",
-      "rule": "be-ing",
-      "prompt": "She ___ studying for a qualification in marketing.",
-      "options": [
-        "is",
-        "does"
-      ],
-      "answer": "is",
-      "translation": "Она учится на квалификацию по маркетингу.",
-      "note": "-ing → is, не does.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "s05",
-      "type": "spot",
-      "rule": "be-ing",
-      "prompt": "They taking a course in creative writing.",
-      "answer": "They're taking a course in creative writing.",
-      "alt": [
-        "They are taking a course in creative writing."
-      ],
-      "diff": [
-        "'re"
-      ],
-      "note": "«Они проходят» = they ARE taking.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "t20",
-      "type": "translate",
-      "rule": "be-ing",
-      "prompt": "Почему она учит испанский?",
-      "answer": "Why is she studying Spanish?",
-      "alt": [
-        "Why is she learning Spanish?"
-      ]
-    },
-    {
-      "id": "t21",
-      "type": "translate",
-      "rule": "be-ing",
-      "prompt": "На что ты смотришь?",
-      "answer": "What are you looking at?",
-      "note": "Предлог в конце: look at."
-    },
-    {
-      "id": "t22",
-      "type": "translate",
-      "rule": "be-ing",
-      "prompt": "Сейчас я не работаю.",
-      "answer": "I'm not working at the moment.",
-      "alt": [
-        "I'm not working now."
-      ]
-    },
-    {
-      "id": "t23",
-      "type": "translate",
-      "rule": "be-ing",
-      "prompt": "Она сейчас за рулём.",
-      "answer": "She's driving now.",
-      "alt": [
-        "She is driving now.",
-        "She's driving at the moment."
-      ],
-      "note": "проще: she's driving.",
-      "tags": [
-        "simple"
-      ]
-    },
-    {
-      "id": "t24",
-      "type": "translate",
-      "rule": "be-ing",
-      "prompt": "Сейчас мы работаем над важным проектом.",
-      "answer": "We're working on an important project.",
-      "alt": [
-        "We are working on an important project."
-      ]
-    },
-    {
-      "id": "r04",
-      "type": "transform",
-      "rule": "be-ing",
-      "prompt": "He's speaking to her.",
-      "task": "→ отрицание",
-      "answer": "He isn't speaking to her.",
-      "alt": [
-        "He's not speaking to her."
-      ]
-    },
-    {
-      "id": "r05",
-      "type": "transform",
-      "rule": "be-ing",
-      "prompt": "They're taking a course.",
-      "task": "→ вопрос",
-      "answer": "Are they taking a course?"
-    },
-    {
-      "id": "f14",
-      "type": "form",
-      "rule": "state",
-      "prompt": "My father ___ a really big family.",
-      "lemma": "have got",
-      "answer": "has got",
-      "full": "My father has got a really big family.",
-      "alt": [
-        "'s got"
-      ],
-      "vzor": "he / she → has got",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "c13",
-      "type": "choice",
-      "rule": "state",
-      "prompt": "That's great. I really ___ to do something like that.",
-      "options": [
-        "want",
-        "'m wanting"
-      ],
-      "answer": "want",
-      "translation": "Здорово. Я очень хочу заняться чем-то таким.",
-      "note": "want — без -ing.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "c14",
-      "type": "choice",
-      "rule": "state",
-      "prompt": "Oh, I read that last year. I ___ it's awful!",
-      "options": [
-        "think",
-        "'m thinking"
-      ],
-      "answer": "think",
-      "translation": "О, я читал её в прошлом году. По-моему, она ужасная!",
-      "note": "think = считаю → без -ing.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "c15",
-      "type": "choice",
-      "rule": "state",
-      "prompt": "James is taking an art course and he ___ it really interesting.",
-      "options": [
-        "finds",
-        "is finding"
-      ],
-      "answer": "finds",
-      "translation": "Джеймс проходит курс по искусству, и ему очень интересно.",
-      "note": "find = считать → без -ing.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "t25",
-      "type": "translate",
-      "rule": "state",
-      "prompt": "Я единственный ребёнок.",
-      "answer": "I'm an only child.",
-      "alt": [
-        "I am an only child."
-      ],
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "t26",
-      "type": "translate",
-      "rule": "state",
-      "prompt": "По-моему, это ужасно.",
-      "answer": "I think it's awful.",
-      "alt": [
-        "I think it is awful."
-      ],
-      "note": "Мнение → I think, не I'm thinking."
-    },
-    {
-      "id": "t27",
-      "type": "translate",
-      "rule": "state",
-      "prompt": "У неё большая семья.",
-      "answer": "She's got a big family.",
-      "alt": [
-        "She has a big family.",
-        "She has got a big family."
-      ],
-      "note": "she → has got."
-    },
-    {
-      "id": "t28",
-      "type": "translate",
-      "rule": "state",
-      "prompt": "Я тоже хочу чем-то таким заняться.",
-      "answer": "I want to do something like that too.",
-      "alt": [
-        "I'd like to do something like that too."
-      ]
-    },
-    {
-      "id": "t29",
-      "type": "translate",
-      "rule": "state",
-      "prompt": "Ему очень интересен этот курс.",
-      "answer": "He finds the course really interesting.",
-      "alt": [
-        "He thinks the course is really interesting."
-      ],
-      "note": "проще: He thinks it's interesting.",
-      "tags": [
-        "simple"
-      ]
-    },
-    {
-      "id": "w02",
-      "type": "chunk",
-      "rule": "opinions",
-      "prompt": "Полностью согласен.",
-      "answer": "I totally agree.",
-      "example": "— Everybody should have the opportunity to do a degree. — I totally agree.",
-      "translation": "— У каждого должна быть возможность получить высшее образование. — Полностью согласен.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "w03",
-      "type": "chunk",
-      "rule": "opinions",
-      "prompt": "Зависит от ситуации.",
-      "answer": "It depends.",
-      "example": "— Students shouldn't work while they're studying. — It depends.",
-      "translation": "— Студентам не стоит работать во время учёбы. — Смотря как.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "w04",
-      "type": "chunk",
-      "rule": "opinions",
-      "prompt": "Совсем не согласен.",
-      "answer": "I totally disagree.",
-      "alt": [
-        "I don't agree at all."
-      ],
-      "example": "— Taking exams is fun. — I totally disagree.",
-      "translation": "— Сдавать экзамены весело. — Совсем не согласен.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "c16",
-      "type": "choice",
-      "rule": "opinions",
-      "prompt": "— Getting qualifications is important. — ___",
-      "options": [
-        "I agree.",
-        "I'm agree."
-      ],
-      "answer": "I agree.",
-      "translation": "— Получить квалификацию важно. — Согласен.",
-      "note": "agree — глагол, am не нужен."
-    },
-    {
-      "id": "s06",
-      "type": "spot",
-      "rule": "opinions",
-      "prompt": "I'm not agree with you.",
-      "answer": "I don't agree with you.",
-      "alt": [
-        "I disagree with you."
-      ],
-      "diff": [
-        "don't"
-      ],
-      "note": "agree — глагол → don't agree."
-    },
-    {
-      "id": "t30",
-      "type": "translate",
-      "rule": "opinions",
-      "prompt": "Я с тобой не согласен.",
-      "answer": "I don't agree with you.",
-      "alt": [
-        "I disagree with you."
-      ],
-      "note": "Не I'm not agree."
-    },
-    {
-      "id": "t31",
-      "type": "translate",
-      "rule": "opinions",
-      "prompt": "Я бы хотел когда-нибудь получить высшее образование.",
-      "answer": "I'd like to do a degree one day.",
-      "alt": [
-        "I would like to do a degree one day."
-      ],
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "t32",
-      "type": "translate",
-      "rule": "opinions",
-      "prompt": "Было бы здорово когда-нибудь иметь свою компанию.",
-      "answer": "It would be nice to run my own company one day.",
-      "alt": [
-        "It would be nice to have my own company one day."
-      ],
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "t33",
-      "type": "translate",
-      "rule": "opinions",
-      "prompt": "Ты бы хотел когда-нибудь иметь свою компанию?",
-      "answer": "Would you like to run your own company one day?",
-      "alt": [
-        "Would you like to have your own company one day?"
-      ]
-    },
-    {
-      "id": "t34",
-      "type": "translate",
-      "rule": "opinions",
-      "prompt": "Когда будет время, я бы хотел пройти курс по древней истории.",
-      "answer": "When I have time, I'd like to do a course in ancient history.",
-      "alt": [
-        "When I have time, I'd like to take a course in ancient history."
-      ],
-      "note": "После when — без will: when I have time.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "c17",
-      "type": "choice",
-      "rule": "opinions",
-      "prompt": "When I ___ time, I'd like to do a course.",
-      "options": [
-        "have",
-        "will have"
-      ],
-      "answer": "have",
-      "translation": "Когда будет время, я бы хотел пройти курс.",
-      "note": "После when — без will."
-    },
-    {
-      "id": "t35",
-      "type": "translate",
-      "rule": "opinions",
-      "prompt": "В какой сфере ты хотел бы работать?",
-      "answer": "Which area would you like to work in?",
-      "alt": [
-        "What area would you like to work in?"
-      ],
-      "note": "Предлог в конце: work in.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "t36",
-      "type": "translate",
-      "rule": "opinions",
-      "prompt": "У каждого должна быть возможность получить высшее образование.",
-      "answer": "Everybody should have the opportunity to do a degree.",
-      "alt": [
-        "Everyone should have the opportunity to do a degree."
-      ],
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "t37",
-      "type": "translate",
-      "rule": "opinions",
-      "prompt": "Самое тяжёлое в университете — сдавать экзамены.",
-      "answer": "The most stressful thing about university is taking exams.",
-      "note": "Сдавать (процесс) = taking.",
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "t38",
-      "type": "translate",
-      "rule": "opinions",
-      "prompt": "Если у тебя своя компания, приходится работать полный день.",
-      "answer": "If you run your own company, you have to work full time.",
-      "alt": [
-        "If you have your own company, you have to work full time."
-      ],
-      "tags": [
-        "from-slide"
-      ]
-    },
-    {
-      "id": "t39",
-      "type": "translate",
-      "rule": "opinions",
-      "prompt": "Большинство людей проходят курс английского, чтобы найти хорошую работу.",
-      "answer": "Most people take a course in English to get a good job.",
-      "alt": [
-        "Most people do a course in English to get a good job.",
-        "Most people take an English course to get a good job."
-      ],
-      "note": "проще, чем в задании: … to get a good job.",
-      "tags": [
-        "simple"
-      ]
-    },
-    {
-      "id": "t40",
-      "type": "translate",
-      "rule": "opinions",
-      "prompt": "Студентам не стоит работать, пока они учатся.",
-      "answer": "It isn't good for students to work while they're studying.",
-      "alt": [
-        "It's not good for students to work while they're studying.",
-        "Students shouldn't work while they're studying."
-      ],
-      "tags": [
-        "from-slide"
-      ]
-    }
+    { "id": "w01", "type": "chunk", "rule": "review-words", "prompt": "получить высшее образование", "answer": "do a degree", "alt": ["get a degree"], "note": "Не make a degree.", "example": "I'd like to do a degree one day.", "translation": "Я бы хотел когда-нибудь получить высшее образование.", "tags": ["from-slide"] },
+    { "id": "w02", "type": "chunk", "rule": "review-words", "prompt": "получить квалификацию", "answer": "get a qualification", "example": "Getting qualifications is important if you want a good job.", "translation": "Получить квалификацию важно, если хочешь хорошую работу.", "tags": ["from-slide"] },
+    { "id": "w03", "type": "chunk", "rule": "review-words", "prompt": "учиться на диплом по бизнесу", "answer": "study for a degree in business", "alt": ["do a degree in business"], "tags": ["from-slide"] },
+    { "id": "w04", "type": "chunk", "rule": "review-words", "prompt": "сдавать экзамены", "answer": "take exams", "alt": ["do exams"], "note": "Ещё не сдал → take.", "example": "I'm taking my final exams in May.", "translation": "В мае я сдаю выпускные экзамены.", "tags": ["from-slide"] },
+    { "id": "w05", "type": "chunk", "rule": "review-words", "prompt": "сдать экзамены", "answer": "pass my exams", "alt": ["pass the exams"], "note": "Сдал успешно → pass.", "example": "I hope I pass my exams this year.", "translation": "Надеюсь, в этом году я сдам экзамены.", "tags": ["from-slide"] },
+    { "id": "w06", "type": "chunk", "rule": "review-words", "prompt": "выпускные экзамены", "answer": "final exams" },
+    { "id": "w07", "type": "chunk", "rule": "review-words", "prompt": "курс по испанскому", "answer": "a course in Spanish", "alt": ["a Spanish course"], "tags": ["from-slide"] },
+    { "id": "w08", "type": "chunk", "rule": "review-words", "prompt": "учиться на юриста", "answer": "train as a lawyer", "alt": ["study to be a lawyer"], "note": "train as — не like, не for.", "example": "My brother is training as a lawyer.", "translation": "Мой брат учится на юриста.", "tags": ["from-slide"] },
+    { "id": "w09", "type": "chunk", "rule": "review-words", "prompt": "работать неполный день", "answer": "work part time", "alt": ["work part-time"], "note": "Не part of time и не half time.", "tags": ["from-slide"] },
+    { "id": "w10", "type": "chunk", "rule": "review-words", "prompt": "иметь свою компанию", "answer": "run my own company", "alt": ["have my own company"], "example": "My mother runs her own company.", "translation": "У моей мамы своя компания.", "tags": ["from-slide"] },
+    { "id": "w11", "type": "chunk", "rule": "review-words", "prompt": "всё ещё работать юристом", "answer": "still work as a lawyer", "example": "Are you still working as a lawyer?", "translation": "Ты всё ещё работаешь юристом?", "tags": ["from-slide"] },
+    { "id": "w12", "type": "chunk", "rule": "review-words", "prompt": "в какой сфере?", "answer": "which area?", "example": "Which area would you like to work in?", "translation": "В какой сфере ты хотел бы работать?", "tags": ["from-slide"] },
+    { "id": "c01", "type": "choice", "rule": "review-words", "prompt": "получить высшее образование — ___ a degree", "options": ["do", "make"], "answer": "do" },
+    { "id": "c02", "type": "choice", "rule": "review-words", "prompt": "учиться на юриста — train ___ a lawyer", "options": ["as", "like"], "answer": "as" },
+    { "id": "c03", "type": "choice", "rule": "review-words", "prompt": "неполный день — work ___ time", "options": ["part", "half"], "answer": "part" },
+    { "id": "c04", "type": "choice", "rule": "review-words", "prompt": "пройти курс — do a ___ in history", "options": ["course", "lesson"], "answer": "course", "note": "a lesson — одно занятие." },
+    { "id": "w13", "type": "chunk", "rule": "day-words", "prompt": "просыпаться", "answer": "wake up", "example": "We usually wake up at five in the morning.", "translation": "Обычно мы встаём в пять утра.", "tags": ["from-slide"] },
+    { "id": "w14", "type": "chunk", "rule": "day-words", "prompt": "вставать (с кровати)", "answer": "get up", "note": "stand up — встать на ноги со стула." },
+    { "id": "w15", "type": "chunk", "rule": "day-words", "prompt": "в пять утра", "answer": "at five in the morning", "tags": ["from-slide"] },
+    { "id": "w16", "type": "chunk", "rule": "day-words", "prompt": "ходить в спортзал", "answer": "go to the gym", "tags": ["from-slide"] },
+    { "id": "w17", "type": "chunk", "rule": "day-words", "prompt": "каждый вечер", "answer": "every evening", "tags": ["from-slide"] },
+    { "id": "w18", "type": "chunk", "rule": "day-words", "prompt": "как часто?", "answer": "how often?", "example": "How often does Jane go to the gym?", "translation": "Как часто Джейн ходит в спортзал?", "tags": ["from-slide"] },
+    { "id": "w19", "type": "chunk", "rule": "day-words", "prompt": "брать выходные (не работать)", "answer": "take the weekends off", "example": "She takes the weekends off!", "translation": "По выходным она отдыхает!", "tags": ["from-slide"] },
+    { "id": "w20", "type": "chunk", "rule": "day-words", "prompt": "в местной школе", "answer": "in a local school", "alt": ["at a local school"], "tags": ["from-slide"] },
+    { "id": "w21", "type": "chunk", "rule": "day-words", "prompt": "большая семья", "answer": "a big family", "example": "My father has got a really big family.", "translation": "У моего отца очень большая семья.", "tags": ["from-slide"] },
+    { "id": "w22", "type": "chunk", "rule": "day-words", "prompt": "единственный ребёнок", "answer": "an only child", "tags": ["from-slide"] },
+    { "id": "w23", "type": "chunk", "rule": "day-words", "prompt": "хороший роман", "answer": "a good novel", "note": "novel — роман, книга. Не «новелла».", "tags": ["from-slide"] },
+    { "id": "w24", "type": "chunk", "rule": "day-words", "prompt": "курс по искусству", "answer": "an art course", "alt": ["a course in art"], "tags": ["from-slide"] },
+    { "id": "w25", "type": "chunk", "rule": "day-words", "prompt": "что-то такое", "answer": "something like that", "example": "I really want to do something like that.", "translation": "Я тоже очень хочу чем-то таким заняться.", "tags": ["from-slide"] },
+    { "id": "c05", "type": "choice", "rule": "day-words", "prompt": "вставать — ___ up", "options": ["get", "stand"], "answer": "get", "note": "stand up — подняться со стула." },
+    { "id": "w26", "type": "chunk", "rule": "now-words", "prompt": "сейчас, в данный момент", "answer": "at the moment", "alt": ["right now", "now"], "tags": ["from-slide"] },
+    { "id": "w27", "type": "chunk", "rule": "now-words", "prompt": "в этом году · в этом месяце", "answer": "this year · this month", "tags": ["from-slide"] },
+    { "id": "w28", "type": "chunk", "rule": "now-words", "prompt": "Иду!", "answer": "I'm coming!", "note": "Иду к тебе → coming, не going.", "tags": ["from-slide"] },
+    { "id": "w29", "type": "chunk", "rule": "now-words", "prompt": "Мы уходим!", "answer": "We're leaving!", "tags": ["from-slide"] },
+    { "id": "w30", "type": "chunk", "rule": "now-words", "prompt": "Скорее! · Подожди!", "answer": "Hurry up! · Wait!", "tags": ["from-slide"] },
+    { "id": "w31", "type": "chunk", "rule": "now-words", "prompt": "Как продвигается?", "answer": "How's it going?", "example": "How's the new course going?", "translation": "Как продвигается новый курс?", "tags": ["from-slide"] },
+    { "id": "w32", "type": "chunk", "rule": "now-words", "prompt": "учиться на медсестру", "answer": "train to be a nurse", "alt": ["train as a nurse"], "tags": ["from-slide"] },
+    { "id": "w33", "type": "chunk", "rule": "now-words", "prompt": "работать над проектом", "answer": "work on a project", "example": "We're working on an important project.", "translation": "Мы работаем над важным проектом.", "tags": ["from-slide"] },
+    { "id": "w34", "type": "chunk", "rule": "now-words", "prompt": "поссориться", "answer": "have an argument", "example": "They had an argument.", "translation": "Они поссорились.", "tags": ["from-slide"] },
+    { "id": "w35", "type": "chunk", "rule": "now-words", "prompt": "разговаривать с ней", "answer": "speak to her", "alt": ["talk to her"], "tags": ["from-slide"] },
+    { "id": "w36", "type": "chunk", "rule": "now-words", "prompt": "смотреть на …", "answer": "look at …", "example": "What are they looking at?", "translation": "На что они смотрят?", "tags": ["from-slide"] },
+    { "id": "w37", "type": "chunk", "rule": "now-words", "prompt": "Ты за рулём!", "answer": "You're driving!", "tags": ["from-slide"] },
+    { "id": "w38", "type": "chunk", "rule": "now-words", "prompt": "жить в центре", "answer": "live in the centre", "alt": ["live in the center"], "tags": ["from-slide"] },
+    { "id": "w39", "type": "chunk", "rule": "now-words", "prompt": "курс писательского мастерства", "answer": "a course in creative writing", "tags": ["from-slide"] },
+    { "id": "c06", "type": "choice", "rule": "now-words", "prompt": "Подожди! Иду! — Wait! I'm ___!", "options": ["coming", "going"], "answer": "coming", "note": "Иду к тебе → coming." },
+    { "id": "w40", "type": "chunk", "rule": "forms-words", "prompt": "я работаю (вообще, обычно)", "answer": "I work" },
+    { "id": "w41", "type": "chunk", "rule": "forms-words", "prompt": "я работаю (сейчас)", "answer": "I'm working" },
+    { "id": "w42", "type": "chunk", "rule": "forms-words", "prompt": "она ходит (обычно)", "answer": "she goes", "note": "she → +es." },
+    { "id": "w43", "type": "chunk", "rule": "forms-words", "prompt": "она идёт (сейчас)", "answer": "she's going" },
+    { "id": "w44", "type": "chunk", "rule": "forms-words", "prompt": "ты работаешь? (вообще)", "answer": "Do you work?" },
+    { "id": "w45", "type": "chunk", "rule": "forms-words", "prompt": "ты работаешь? (сейчас)", "answer": "Are you working?" },
+    { "id": "w46", "type": "chunk", "rule": "forms-words", "prompt": "он не встаёт (обычно)", "answer": "he doesn't get up" },
+    { "id": "w47", "type": "chunk", "rule": "forms-words", "prompt": "он не разговаривает (сейчас)", "answer": "he isn't speaking", "alt": ["he's not speaking"] },
+    { "id": "w48", "type": "chunk", "rule": "forms-words", "prompt": "кем ты работаешь?", "answer": "What do you do?", "tags": ["from-slide"] },
+    { "id": "w49", "type": "chunk", "rule": "forms-words", "prompt": "что ты делаешь (сейчас)?", "answer": "What are you doing?" },
+    { "id": "w50", "type": "chunk", "rule": "forms-words", "prompt": "почему ты учишь…? (сейчас)", "answer": "Why are you studying…?", "tags": ["from-slide"] },
+    { "id": "w51", "type": "chunk", "rule": "forms-words", "prompt": "я хочу", "answer": "I want", "note": "Даже «сейчас» — не I'm wanting." },
+    { "id": "w52", "type": "chunk", "rule": "forms-words", "prompt": "я считаю, по-моему", "answer": "I think", "note": "think = считаю → без -ing." },
+    { "id": "w53", "type": "chunk", "rule": "forms-words", "prompt": "у неё есть", "answer": "she's got", "alt": ["she has"], "tags": ["from-slide"] },
+    { "id": "c07", "type": "choice", "rule": "forms-words", "prompt": "Она учится — she ___ studying", "options": ["is", "does"], "answer": "is", "note": "-ing → am / is / are." },
+    { "id": "c08", "type": "choice", "rule": "forms-words", "prompt": "Почему ты учишь? — Why ___ you studying?", "options": ["are", "do"], "answer": "are", "note": "-ing → are, не do." },
+    { "id": "c09", "type": "choice", "rule": "forms-words", "prompt": "Он не встаёт в пять — he ___ get up at five", "options": ["doesn't", "isn't"], "answer": "doesn't", "note": "Обычно → doesn't." },
+    { "id": "c10", "type": "choice", "rule": "forms-words", "prompt": "Я хочу — I ___", "options": ["want", "'m wanting"], "answer": "want", "note": "want — без -ing." },
+    { "id": "w54", "type": "chunk", "rule": "opinion-words", "prompt": "Я согласен.", "answer": "I agree.", "note": "agree — глагол: не I'm agree." },
+    { "id": "w55", "type": "chunk", "rule": "opinion-words", "prompt": "Я не согласен.", "answer": "I don't agree.", "alt": ["I disagree."] },
+    { "id": "w56", "type": "chunk", "rule": "opinion-words", "prompt": "когда-нибудь", "answer": "one day", "tags": ["from-slide"] },
+    { "id": "w57", "type": "chunk", "rule": "opinion-words", "prompt": "я бы хотел …", "answer": "I'd like to …", "alt": ["I would like to …"], "example": "I'd like to do a degree one day.", "translation": "Я бы хотел когда-нибудь получить высшее образование.", "tags": ["from-slide"] },
+    { "id": "w58", "type": "chunk", "rule": "opinion-words", "prompt": "было бы здорово …", "answer": "It would be nice to …", "example": "It would be nice to run my own company one day.", "translation": "Было бы здорово когда-нибудь иметь свою компанию.", "tags": ["from-slide"] },
+    { "id": "w59", "type": "chunk", "rule": "opinion-words", "prompt": "когда будет время", "answer": "when I have time", "note": "После when — без will.", "tags": ["from-slide"] },
+    { "id": "w60", "type": "chunk", "rule": "opinion-words", "prompt": "у каждого должна быть возможность …", "answer": "Everybody should have the opportunity to …", "tags": ["from-slide"] },
+    { "id": "w61", "type": "chunk", "rule": "opinion-words", "prompt": "самое тяжёлое — …", "answer": "The most stressful thing is …", "tags": ["from-slide"] },
+    { "id": "w62", "type": "chunk", "rule": "opinion-words", "prompt": "найти хорошую работу", "answer": "get a good job", "tags": ["from-slide"] },
+    { "id": "w63", "type": "chunk", "rule": "opinion-words", "prompt": "пока они учатся", "answer": "while they're studying", "tags": ["from-slide"] },
+    { "id": "w64", "type": "chunk", "rule": "opinion-words", "prompt": "приходится работать", "answer": "have to work", "tags": ["from-slide"] },
+    { "id": "c11", "type": "choice", "rule": "opinion-words", "prompt": "Я не согласен — I ___ agree", "options": ["don't", "'m not"], "answer": "don't", "note": "agree — глагол → don't." },
+    { "id": "c12", "type": "choice", "rule": "opinion-words", "prompt": "когда будет время — when I ___ time", "options": ["have", "will have"], "answer": "have", "note": "После when — без will." },
+    { "id": "w65", "type": "chunk", "rule": "opinion-words", "prompt": "Полностью согласен.", "answer": "I totally agree.", "example": "— Everybody should have the opportunity to do a degree. — I totally agree.", "translation": "— У каждого должна быть возможность получить высшее образование. — Полностью согласен.", "tags": ["from-slide"] },
+    { "id": "w66", "type": "chunk", "rule": "opinion-words", "prompt": "Зависит от ситуации.", "answer": "It depends.", "example": "— Students shouldn't work while they're studying. — It depends.", "translation": "— Студентам не стоит работать во время учёбы. — Смотря как.", "tags": ["from-slide"] },
+    { "id": "w67", "type": "chunk", "rule": "opinion-words", "prompt": "Совсем не согласен.", "answer": "I totally disagree.", "alt": ["I don't agree at all."], "example": "— Taking exams is fun. — I totally disagree.", "translation": "— Сдавать экзамены весело. — Совсем не согласен.", "tags": ["from-slide"] },
+    { "id": "c13", "type": "choice", "rule": "review-phrases", "prompt": "I'd like to ___ a degree one day.", "options": ["do", "make"], "answer": "do", "translation": "Я бы хотел когда-нибудь получить высшее образование.", "note": "degree → do, не make.", "tags": ["from-slide"] },
+    { "id": "c14", "type": "choice", "rule": "review-phrases", "prompt": "I don't enjoy ___ exams.", "options": ["taking", "passing"], "answer": "taking", "translation": "Я не люблю сдавать экзамены.", "note": "Сдавать (процесс) = take. Pass = сдать успешно.", "tags": ["from-slide"] },
+    { "id": "c15", "type": "choice", "rule": "review-phrases", "prompt": "___ qualifications is important if you want a good job.", "options": ["Getting", "Passing"], "answer": "Getting", "translation": "Получить квалификацию важно, если хочешь хорошую работу.", "note": "Квалификацию получают: get. Pass — только про экзамен.", "tags": ["from-slide"] },
+    { "id": "c16", "type": "choice", "rule": "review-phrases", "prompt": "I'm studying, but I also work ___ time.", "options": ["part", "half"], "answer": "part", "translation": "Я учусь, но ещё и подрабатываю.", "tags": ["from-slide"] },
+    { "id": "c17", "type": "choice", "rule": "review-phrases", "prompt": "My brother is training ___ a lawyer.", "options": ["as", "like"], "answer": "as", "translation": "Мой брат учится на юриста.", "note": "Учиться на кого-то = train as. Like = «похоже на».", "tags": ["from-slide"] },
+    { "id": "c18", "type": "choice", "rule": "review-phrases", "prompt": "If you are ___ as a tour guide, it's important to speak several languages.", "options": ["training", "studying"], "answer": "training", "translation": "Если учишься на гида, важно говорить на нескольких языках.", "note": "Учиться на профессию = train as.", "tags": ["from-slide"] },
+    { "id": "s01", "type": "spot", "rule": "review-phrases", "prompt": "My sister is doing a course economics.", "answer": "My sister is doing a course in economics.", "diff": ["in"], "note": "Курс по чему-то = a course in.", "tags": ["from-slide"] },
+    { "id": "s02", "type": "spot", "rule": "review-phrases", "prompt": "I have a degree English and French.", "answer": "I have a degree in English and French.", "diff": ["in"], "note": "Диплом по чему-то = a degree in.", "tags": ["from-slide"] },
+    { "id": "s03", "type": "spot", "rule": "review-phrases", "prompt": "I'm training for tour guide with a local company.", "answer": "I'm training as a tour guide with a local company.", "diff": ["as a"], "note": "Учиться на гида = train as a tour guide.", "tags": ["from-slide"] },
+    { "id": "s04", "type": "spot", "rule": "review-phrases", "prompt": "I work part of time in my local supermarket.", "answer": "I work part time in my local supermarket.", "alt": ["I work part-time in my local supermarket."], "diff": ["part time"], "note": "Неполный день = part time, без of." },
+    { "id": "t01", "type": "translate", "rule": "review-phrases", "prompt": "Сестра сейчас получает высшее образование.", "answer": "My sister is studying for a degree right now.", "alt": ["My sister's studying for a degree right now.", "My sister is doing a degree right now."], "note": "Учиться ради диплома = study for a degree.", "tags": ["from-slide"] },
+    { "id": "t02", "type": "translate", "rule": "review-phrases", "prompt": "Я хочу учиться на квалификацию по бизнесу.", "answer": "I want to study for a qualification in business.", "alt": ["I want to do a qualification in business."], "tags": ["from-slide"] },
+    { "id": "t03", "type": "translate", "rule": "review-phrases", "prompt": "Надеюсь, в этом году я сдам экзамены.", "answer": "I hope I pass my exams this year.", "alt": ["I hope that I pass my exams this year."], "note": "Сдать успешно = pass. После hope — настоящее время.", "tags": ["from-slide"] },
+    { "id": "t04", "type": "translate", "rule": "review-phrases", "prompt": "В мае я сдаю выпускные экзамены.", "answer": "I'm taking my final exams in May.", "alt": ["I am taking my final exams in May."], "note": "Сдаю (план с датой) = I'm taking.", "tags": ["from-slide"] },
+    { "id": "t05", "type": "translate", "rule": "review-phrases", "prompt": "У моей мамы своя компания. Она всегда очень занята!", "answer": "My mother runs her own company. She's always very busy!", "alt": ["My mum runs her own company. She's always very busy!", "My mother has her own company. She's always very busy!"], "tags": ["from-slide"] },
+    { "id": "t06", "type": "translate", "rule": "review-phrases", "prompt": "Ты всё ещё работаешь юристом?", "answer": "Are you still working as a lawyer?", "alt": ["Do you still work as a lawyer?"], "note": "Работать кем = work as.", "tags": ["from-slide"] },
+    { "id": "t07", "type": "translate", "rule": "review-phrases", "prompt": "Мой брат учится на юриста.", "answer": "My brother is training as a lawyer.", "alt": ["My brother's training as a lawyer."], "tags": ["from-slide"] },
+    { "id": "f01", "type": "form", "rule": "review-phrases", "prompt": "I'm studying ___ my degree in business at the moment.", "lemma": "предлог: учусь ради диплома", "answer": "for", "full": "I'm studying for my degree in business at the moment.", "vzor": "study for a degree / a qualification", "tags": ["from-slide"] },
+    { "id": "f02", "type": "form", "rule": "review-phrases", "prompt": "I really hope I ___ my exams at the end of the year!", "lemma": "сдать (успешно)", "answer": "pass", "full": "I really hope I pass my exams at the end of the year!", "vzor": "take — сдавать · pass — сдать", "tags": ["from-slide"] },
+    { "id": "f03", "type": "form", "rule": "review-phrases", "prompt": "I'm working part ___ at a local restaurant.", "lemma": "неполный день", "answer": "time", "full": "I'm working part time at a local restaurant.", "vzor": "work part time / full time", "tags": ["from-slide"] },
+    { "id": "f04", "type": "form", "rule": "review-phrases", "prompt": "Maybe I'll do a course ___ Spanish later this year.", "lemma": "предлог: курс по…", "answer": "in", "full": "Maybe I'll do a course in Spanish later this year.", "vzor": "a course in · a degree in · a qualification in", "tags": ["from-slide"] },
+    { "id": "f05", "type": "form", "rule": "review-phrases", "prompt": "I know you'd like to ___ your own company one day.", "lemma": "руководить, вести", "answer": "run", "full": "I know you'd like to run your own company one day.", "vzor": "run – ran – run", "tags": ["from-slide"] },
+    { "id": "t08", "type": "translate", "rule": "simple-cont-phrases", "prompt": "Кем ты работаешь?", "answer": "What do you do?", "note": "Не What are you doing? — это «что ты сейчас делаешь».", "tags": ["from-slide"] },
+    { "id": "t09", "type": "translate", "rule": "simple-cont-phrases", "prompt": "Я учитель. Работаю полный день в местной школе.", "answer": "I'm a teacher. I work full-time in a local school.", "alt": ["I'm a teacher. I work full time in a local school."], "note": "Работа вообще → Simple: I work.", "tags": ["from-slide"] },
+    { "id": "t10", "type": "translate", "rule": "simple-cont-phrases", "prompt": "Обычно мы встаём в пять утра.", "answer": "We usually wake up at five in the morning.", "alt": ["We usually get up at five in the morning."], "note": "usually → Simple.", "tags": ["from-slide"] },
+    { "id": "t11", "type": "translate", "rule": "simple-cont-phrases", "prompt": "Я не встаю в пять!", "answer": "I don't get up at five!", "alt": ["I don't wake up at five!"], "tags": ["from-slide"] },
+    { "id": "t12", "type": "translate", "rule": "simple-cont-phrases", "prompt": "Как часто Джейн ходит в спортзал?", "answer": "How often does Jane go to the gym?", "note": "How often → Simple: does … go.", "tags": ["from-slide"] },
+    { "id": "t13", "type": "translate", "rule": "simple-cont-phrases", "prompt": "Сейчас я читаю очень хороший роман.", "answer": "I'm reading a really good novel at the moment.", "alt": ["At the moment I'm reading a really good novel."], "note": "at the moment → Continuous.", "tags": ["from-slide"] },
+    { "id": "t14", "type": "translate", "rule": "simple-cont-phrases", "prompt": "Как продвигается новый курс?", "answer": "How's the new course going?", "alt": ["How is the new course going?"], "tags": ["from-slide"] },
+    { "id": "t15", "type": "translate", "rule": "simple-cont-phrases", "prompt": "Я учусь на медсестру.", "answer": "I'm training to be a nurse.", "alt": ["I'm training as a nurse."], "tags": ["from-slide"] },
+    { "id": "t16", "type": "translate", "rule": "simple-cont-phrases", "prompt": "Подожди! Иду!", "answer": "Wait! I'm coming!", "note": "«Иду» прямо сейчас = I'm coming, не I go.", "tags": ["from-slide"] },
+    { "id": "t17", "type": "translate", "rule": "simple-cont-phrases", "prompt": "Скорее! Мы уходим!", "answer": "Hurry up! We're leaving!", "alt": ["Hurry up! We are leaving!"], "tags": ["from-slide"] },
+    { "id": "t18", "type": "translate", "rule": "simple-cont-phrases", "prompt": "Она обычно ходит в спортзал каждый вечер.", "answer": "She usually goes to the gym every evening.", "note": "every evening → Simple, she → goes." },
+    { "id": "t19", "type": "translate", "rule": "simple-cont-phrases", "prompt": "В этом году я прохожу курс по искусству.", "answer": "I'm taking an art course this year.", "alt": ["I'm doing an art course this year.", "I'm taking a course in art this year."], "note": "this year → Continuous." },
+    { "id": "c19", "type": "choice", "rule": "simple-cont-phrases", "prompt": "What ___ you do? — I'm a teacher.", "options": ["do", "are"], "answer": "do", "translation": "Кем ты работаешь? — Я учитель.", "tags": ["from-slide"] },
+    { "id": "c20", "type": "choice", "rule": "simple-cont-phrases", "prompt": "We usually ___ up at five in the morning.", "options": ["wake", "are waking"], "answer": "wake", "translation": "Обычно мы встаём в пять утра.", "note": "usually → Simple.", "tags": ["from-slide"] },
+    { "id": "c21", "type": "choice", "rule": "simple-cont-phrases", "prompt": "Hm, she usually ___ every evening.", "options": ["goes", "is going"], "answer": "goes", "translation": "Хм, обычно она ходит каждый вечер.", "tags": ["from-slide"] },
+    { "id": "c22", "type": "choice", "rule": "simple-cont-phrases", "prompt": "Hurry up, Julie! We ___ now!", "options": ["'re leaving", "leave"], "answer": "'re leaving", "translation": "Скорее, Джули! Мы уходим!", "note": "now → Continuous.", "tags": ["from-slide"] },
+    { "id": "f06", "type": "form", "rule": "simple-cont-phrases", "prompt": "James ___ an art course this year.", "lemma": "take", "answer": "is taking", "full": "James is taking an art course this year.", "alt": ["'s taking"], "vzor": "this year → is + -ing", "tags": ["from-slide"] },
+    { "id": "r01", "type": "transform", "rule": "simple-cont-phrases", "prompt": "She takes the weekends off.", "task": "→ отрицание", "answer": "She doesn't take the weekends off.", "note": "takes → doesn't take." },
+    { "id": "r02", "type": "transform", "rule": "simple-cont-phrases", "prompt": "James is taking an art course.", "task": "→ вопрос", "answer": "Is James taking an art course?" },
+    { "id": "r03", "type": "transform", "rule": "simple-cont-phrases", "prompt": "I read a lot.", "task": "→ сейчас (at the moment)", "answer": "I'm reading a lot at the moment.", "alt": ["At the moment I'm reading a lot."] },
+    { "id": "f07", "type": "form", "rule": "be-ing-phrases", "prompt": "I love my life here. ___ in the centre.", "lemma": "I + live (сейчас)", "answer": "I'm living", "full": "I love my life here. I'm living in the centre.", "alt": ["I am living"], "vzor": "I → am + -ing", "tags": ["from-slide"] },
+    { "id": "f08", "type": "form", "rule": "be-ing-phrases", "prompt": "Why ___ English?", "lemma": "you + study", "answer": "are you studying", "full": "Why are you studying English?", "vzor": "вопрос: are + you + -ing", "tags": ["from-slide"] },
+    { "id": "f09", "type": "form", "rule": "be-ing-phrases", "prompt": "___ a course in creative writing.", "lemma": "they + take", "answer": "They're taking", "full": "They're taking a course in creative writing.", "alt": ["They are taking"], "vzor": "they → are + -ing", "tags": ["from-slide"] },
+    { "id": "f10", "type": "form", "rule": "be-ing-phrases", "prompt": "What ___ at?", "lemma": "they + look", "answer": "are they looking", "full": "What are they looking at?", "vzor": "вопрос: are + they + -ing", "tags": ["from-slide"] },
+    { "id": "f11", "type": "form", "rule": "be-ing-phrases", "prompt": "Don't use your phone! ___!", "lemma": "you + drive", "answer": "You're driving", "full": "Don't use your phone! You're driving!", "alt": ["You are driving"], "vzor": "you → are + -ing", "tags": ["from-slide"] },
+    { "id": "f12", "type": "form", "rule": "be-ing-phrases", "prompt": "We're really busy this month as ___ on an important project.", "lemma": "we + work", "answer": "we're working", "full": "We're really busy this month as we're working on an important project.", "alt": ["we are working"], "vzor": "we → are + -ing", "tags": ["from-slide"] },
+    { "id": "f13", "type": "form", "rule": "be-ing-phrases", "prompt": "___ to her at the moment. They had an argument.", "lemma": "he + not speak", "answer": "He isn't speaking", "full": "He isn't speaking to her at the moment. They had an argument.", "alt": ["He's not speaking", "He is not speaking"], "vzor": "he → is not + -ing", "tags": ["from-slide"] },
+    { "id": "c23", "type": "choice", "rule": "be-ing-phrases", "prompt": "Why ___ you studying English?", "options": ["are", "do"], "answer": "are", "translation": "Почему ты учишь английский?", "note": "-ing → are, не do." },
+    { "id": "c24", "type": "choice", "rule": "be-ing-phrases", "prompt": "She ___ studying for a qualification in marketing.", "options": ["is", "does"], "answer": "is", "translation": "Она учится на квалификацию по маркетингу.", "note": "-ing → is, не does.", "tags": ["from-slide"] },
+    { "id": "s05", "type": "spot", "rule": "be-ing-phrases", "prompt": "They taking a course in creative writing.", "answer": "They're taking a course in creative writing.", "alt": ["They are taking a course in creative writing."], "diff": ["'re"], "note": "«Они проходят» = they ARE taking.", "tags": ["from-slide"] },
+    { "id": "t20", "type": "translate", "rule": "be-ing-phrases", "prompt": "Почему она учит испанский?", "answer": "Why is she studying Spanish?", "alt": ["Why is she learning Spanish?"] },
+    { "id": "t21", "type": "translate", "rule": "be-ing-phrases", "prompt": "На что ты смотришь?", "answer": "What are you looking at?", "note": "Предлог в конце: look at." },
+    { "id": "t22", "type": "translate", "rule": "be-ing-phrases", "prompt": "Сейчас я не работаю.", "answer": "I'm not working at the moment.", "alt": ["I'm not working now."] },
+    { "id": "t23", "type": "translate", "rule": "be-ing-phrases", "prompt": "Она сейчас за рулём.", "answer": "She's driving now.", "alt": ["She is driving now.", "She's driving at the moment."], "note": "проще: she's driving.", "tags": ["simple"] },
+    { "id": "t24", "type": "translate", "rule": "be-ing-phrases", "prompt": "Сейчас мы работаем над важным проектом.", "answer": "We're working on an important project.", "alt": ["We are working on an important project."] },
+    { "id": "r04", "type": "transform", "rule": "be-ing-phrases", "prompt": "He's speaking to her.", "task": "→ отрицание", "answer": "He isn't speaking to her.", "alt": ["He's not speaking to her."] },
+    { "id": "r05", "type": "transform", "rule": "be-ing-phrases", "prompt": "They're taking a course.", "task": "→ вопрос", "answer": "Are they taking a course?" },
+    { "id": "f14", "type": "form", "rule": "state-phrases", "prompt": "My father ___ a really big family.", "lemma": "have got", "answer": "has got", "full": "My father has got a really big family.", "alt": ["'s got"], "vzor": "he / she → has got", "tags": ["from-slide"] },
+    { "id": "c25", "type": "choice", "rule": "state-phrases", "prompt": "That's great. I really ___ to do something like that.", "options": ["want", "'m wanting"], "answer": "want", "translation": "Здорово. Я очень хочу заняться чем-то таким.", "note": "want — без -ing.", "tags": ["from-slide"] },
+    { "id": "c26", "type": "choice", "rule": "state-phrases", "prompt": "Oh, I read that last year. I ___ it's awful!", "options": ["think", "'m thinking"], "answer": "think", "translation": "О, я читал её в прошлом году. По-моему, она ужасная!", "note": "think = считаю → без -ing.", "tags": ["from-slide"] },
+    { "id": "c27", "type": "choice", "rule": "state-phrases", "prompt": "James is taking an art course and he ___ it really interesting.", "options": ["finds", "is finding"], "answer": "finds", "translation": "Джеймс проходит курс по искусству, и ему очень интересно.", "note": "find = считать → без -ing.", "tags": ["from-slide"] },
+    { "id": "t25", "type": "translate", "rule": "state-phrases", "prompt": "Я единственный ребёнок.", "answer": "I'm an only child.", "alt": ["I am an only child."], "tags": ["from-slide"] },
+    { "id": "t26", "type": "translate", "rule": "state-phrases", "prompt": "По-моему, это ужасно.", "answer": "I think it's awful.", "alt": ["I think it is awful."], "note": "Мнение → I think, не I'm thinking." },
+    { "id": "t27", "type": "translate", "rule": "state-phrases", "prompt": "У неё большая семья.", "answer": "She's got a big family.", "alt": ["She has a big family.", "She has got a big family."], "note": "she → has got." },
+    { "id": "t28", "type": "translate", "rule": "state-phrases", "prompt": "Я тоже хочу чем-то таким заняться.", "answer": "I want to do something like that too.", "alt": ["I'd like to do something like that too."] },
+    { "id": "t29", "type": "translate", "rule": "state-phrases", "prompt": "Ему очень интересен этот курс.", "answer": "He finds the course really interesting.", "alt": ["He thinks the course is really interesting."], "note": "проще: He thinks it's interesting.", "tags": ["simple"] },
+    { "id": "c28", "type": "choice", "rule": "opinion-phrases", "prompt": "— Getting qualifications is important. — ___", "options": ["I agree.", "I'm agree."], "answer": "I agree.", "translation": "— Получить квалификацию важно. — Согласен.", "note": "agree — глагол, am не нужен." },
+    { "id": "c29", "type": "choice", "rule": "opinion-phrases", "prompt": "When I ___ time, I'd like to do a course.", "options": ["have", "will have"], "answer": "have", "translation": "Когда будет время, я бы хотел пройти курс.", "note": "После when — без will." },
+    { "id": "s06", "type": "spot", "rule": "opinion-phrases", "prompt": "I'm not agree with you.", "answer": "I don't agree with you.", "alt": ["I disagree with you."], "diff": ["don't"], "note": "agree — глагол → don't agree." },
+    { "id": "t30", "type": "translate", "rule": "opinion-phrases", "prompt": "Я с тобой не согласен.", "answer": "I don't agree with you.", "alt": ["I disagree with you."], "note": "Не I'm not agree." },
+    { "id": "t31", "type": "translate", "rule": "opinion-phrases", "prompt": "Я бы хотел когда-нибудь получить высшее образование.", "answer": "I'd like to do a degree one day.", "alt": ["I would like to do a degree one day."], "tags": ["from-slide"] },
+    { "id": "t32", "type": "translate", "rule": "opinion-phrases", "prompt": "Было бы здорово когда-нибудь иметь свою компанию.", "answer": "It would be nice to run my own company one day.", "alt": ["It would be nice to have my own company one day."], "tags": ["from-slide"] },
+    { "id": "t33", "type": "translate", "rule": "opinion-phrases", "prompt": "Ты бы хотел когда-нибудь иметь свою компанию?", "answer": "Would you like to run your own company one day?", "alt": ["Would you like to have your own company one day?"] },
+    { "id": "t34", "type": "translate", "rule": "opinion-phrases", "prompt": "Когда будет время, я бы хотел пройти курс по древней истории.", "answer": "When I have time, I'd like to do a course in ancient history.", "alt": ["When I have time, I'd like to take a course in ancient history."], "note": "После when — без will: when I have time.", "tags": ["from-slide"] },
+    { "id": "t35", "type": "translate", "rule": "opinion-phrases", "prompt": "В какой сфере ты хотел бы работать?", "answer": "Which area would you like to work in?", "alt": ["What area would you like to work in?"], "note": "Предлог в конце: work in.", "tags": ["from-slide"] },
+    { "id": "t36", "type": "translate", "rule": "opinion-phrases", "prompt": "У каждого должна быть возможность получить высшее образование.", "answer": "Everybody should have the opportunity to do a degree.", "alt": ["Everyone should have the opportunity to do a degree."], "tags": ["from-slide"] },
+    { "id": "t37", "type": "translate", "rule": "opinion-phrases", "prompt": "Самое тяжёлое в университете — сдавать экзамены.", "answer": "The most stressful thing about university is taking exams.", "note": "Сдавать (процесс) = taking.", "tags": ["from-slide"] },
+    { "id": "t38", "type": "translate", "rule": "opinion-phrases", "prompt": "Если у тебя своя компания, приходится работать полный день.", "answer": "If you run your own company, you have to work full time.", "alt": ["If you have your own company, you have to work full time."], "tags": ["from-slide"] },
+    { "id": "t39", "type": "translate", "rule": "opinion-phrases", "prompt": "Большинство людей проходят курс английского, чтобы найти хорошую работу.", "answer": "Most people take a course in English to get a good job.", "alt": ["Most people do a course in English to get a good job.", "Most people take an English course to get a good job."], "note": "проще, чем в задании: … to get a good job.", "tags": ["simple"] },
+    { "id": "t40", "type": "translate", "rule": "opinion-phrases", "prompt": "Студентам не стоит работать, пока они учатся.", "answer": "It isn't good for students to work while they're studying.", "alt": ["It's not good for students to work while they're studying.", "Students shouldn't work while they're studying."], "tags": ["from-slide"] }
   ]
 }
